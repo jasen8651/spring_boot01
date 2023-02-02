@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.backend_todolist.dto.TodoDTO;
 import com.example.demo.backend_todolist.service.TodoServerice;
-//스픵부트
+//스픵부트 데이터베이스 ㄷ아아아아앚대재재재재
 //@RequiredArgsConstructor =@Controller + @ResponseBody
 // http://localhost:8090/todo/all
 @RestController
