@@ -11,6 +11,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,6 +25,9 @@ import com.example.demo.backend_todolist.service.TodoServerice;
 //스픵부트 데이터베이스 ㄷ아아아아앚대재재재재
 //@RequiredArgsConstructor =@Controller + @ResponseBody
 // http://localhost:8090/todo/all
+
+//@CrossOrigin("*")
+@CrossOrigin(origins = {"http://localhost:3000"})
 @RestController
 public class Todoontroller {
 	
